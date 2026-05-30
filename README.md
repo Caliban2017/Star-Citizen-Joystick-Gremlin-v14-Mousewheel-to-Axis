@@ -23,6 +23,8 @@ It is recommended to create a separate profile for the tractor beam. You can use
 
 7. Under Mode, you can select in which profile the script will be active. Choose your Tractor profile here.
 
+![Readme Screenshot](https://github.com/Caliban2017/Star-Citizen-Joystick-Gremlin-v14-Mousewheel-to-Axis/blob/main/readme1.png?raw=true)
+
 # Additional Settings:
 
 With Invert, you can of course invert your axis.
