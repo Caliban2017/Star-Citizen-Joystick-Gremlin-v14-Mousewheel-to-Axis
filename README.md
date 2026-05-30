@@ -1,34 +1,34 @@
 # Star-Citizen-Joystick-Gremlin-v14-Mousewheel-to-Axis
 
 # Description:
-This two Action-Scripts a created to use an Axis on a Joystick/Hotas for the Distance of the Tractor-Beam in Star Citizen. The sc_mousewheel_to_axis.py File is able to bind an Axis to the Mousewheel-Scroll. So you can use slow movements for the Tractor-Beam and fast movements, depending on the Axis Input. The Second File, the sc_mouse_to_stick.py can be used to bind an Analog-Stick, for example the Finger-Stick on the TWSC T.16000M Throttle. In combination with another rebinded Button, which holds the R-Button on the Keyboard, you can move the Mouse with an Analog-Stick and you are able to rotate the Boxes on the Tractor-Beam with your Finger-Stick.
+These two action scripts were created to use an axis on a joystick/HOTAS to control the distance of the tractor beam in Star Citizen. The sc_mousewheel_to_axis.py file allows you to bind an axis to the mouse wheel scroll. This enables you to perform both slow and fast movements for the tractor beam, depending on the axis input. The second file, sc_mouse_to_stick.py, can be used to map an analog stick, such as the mini-stick on the TWCS T.16000M Throttle. In combination with another rebinded button that holds down the "R" key on the keyboard, you can move the mouse with an analog stick and easily rotate boxes on the tractor beam with your finger stick.
 
-It is recommended you create a separate Profile for the Tractor-Beam. You can use a free Button of your Choice to toggle trough the Profiles. Otherwise this Script may get in conflict with your other Keybinds. To create a new Profile, just go to Tools -> Manage Modes -> Add Mode. Call it for Example "Tractor" and after you created it, you can select your Default-Profile in the right Drop-Down box to inherit all Keybinds from your Default-Profile.
+It is recommended to create a separate profile for the tractor beam. You can use a free button of your choice to toggle through the profiles. Otherwise, this script may conflict with your other keybinds. To create a new profile, simply go to Tools -> Manage Modes -> Add Mode. For example, call it "Tractor". After creating it, you can select your default profile in the right drop-down box to inherit all keybinds from your default profile.
 
 # Install:
 
-1. Download the sc_mousewheel_to_axis.py and/or the sc_mouse_to_stick.py in put it in a Folder of your Choice.
+1. Download sc_mousewheel_to_axis.py and/or sc_mouse_to_stick.py and put them into a folder of your choice.
 
-2. start Joystick Gremlin v14, go to Settings and choose Global. Choose as Plugin directory, where your mousewheel.py is locatet.
+2. Start Joystick Gremlin v14, go to Settings and choose Global. For the Plugin directory, choose the folder where your python scripts are located.
 
-3. Click on "Scripts" on the Top Right of the Main-Window. Click "Add Script" and choose one of the two .py Files.
+3. Click on "Scripts" in the top right of the main window. Click "Add Script" and choose one of the two .py files.
 
-4. It should be listet as Instance 1. Click the Edit Button (middle of the three Icons on the right side).
+4. It should be listed as Instance 1. Click the Edit button (the middle of the three icons on the right side).
 
-5. For the sc_mousewheel_to_axis.py:
-     On Axis click on "No Input" and then press the Axis you want to use of your Joystick. 
+5. For sc_mousewheel_to_axis.py:
+     Click on "No Input" next to Axis and then move the axis on your joystick that you want to use. 
    
-6. For the sc_mouse_to_stick.py:
-     Same for the Mouse.py, set a X-Axis and a Y Axis and choose your Tractor or Mainprofile.
+6. For sc_mouse_to_stick.py:
+     Same as the mouse script: set an X-Axis and a Y-Axis, and choose either your Tractor or Main profile.
 
-7. On Mode you can select in which Profile it will be active. Choose your Tractor-Profile here.
+7. Under Mode, you can select in which profile the script will be active. Choose your Tractor profile here.
 
 # Additional Settings:
 
-With Invert you can of course invert your Axis.
+With Invert, you can of course invert your axis.
 
-Scale sets the Speed of your Mousewheel. It is only usable for the minimum speed of the Wheelscroll. The Maximum Amount is limited by Joystick Gremlin and can not go faster, otherweise the Script will cause an Overflow and stop the Scrolling.
+Scale sets the speed of your mouse wheel scrolling. It only affects the minimum speed of the wheel scroll. The maximum amount is limited by Joystick Gremlin and cannot go faster; otherwise, the script will cause an overflow and stop scrolling.
 
-Deadzone is of course to prevent movings on the Zeropoint of the AXis.
+Deadzone is, of course, used to prevent movement around the center point of the axis.
 
-Speed is to set the Mousemovement Speed.
+Speed is used to set the mouse movement speed.
