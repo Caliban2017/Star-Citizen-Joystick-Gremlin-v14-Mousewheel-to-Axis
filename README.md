@@ -25,6 +25,10 @@ It is recommended to create a separate profile for the tractor beam. You can use
 
 ![Readme Screenshot](https://github.com/Caliban2017/Star-Citizen-Joystick-Gremlin-v14-Mousewheel-to-Axis/blob/main/readme1.png?raw=true)
 
+8. Use these Method to create an Hold-R Keybind on any Button of your Choice. Make sure your Tractor-Profile on the Top Right is selected and use the Action "Map to Keyboard". As Key Combination set "R" and done. When you now hold that button on your Joystick, you can use the Analog Stick to rotate your SCU Boxes on your Tractor beam.
+
+![Readme Screenshot](https://github.com/Caliban2017/Star-Citizen-Joystick-Gremlin-v14-Mousewheel-to-Axis/blob/main/readme2.png?raw=true)
+
 # Additional Settings:
 
 With Invert, you can of course invert your axis.
